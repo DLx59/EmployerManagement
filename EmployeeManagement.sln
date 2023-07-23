@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "EmployeeManagement\EmployeeManagement.csproj", "{1D22BF96-632E-4567-9D59-7917D58CB7E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5CCC3C9F-67F9-44F4-9A86-4D5E67B1A53C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{859E6B4F-ED6E-4AF8-8881-9081D90B063E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Data", "EmployeeManagement.Data\EmployeeManagement.Data.csproj", "{24539204-930F-41FF-9A75-B242562CEBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D22BF96-632E-4567-9D59-7917D58CB7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D22BF96-632E-4567-9D59-7917D58CB7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D22BF96-632E-4567-9D59-7917D58CB7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D22BF96-632E-4567-9D59-7917D58CB7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24539204-930F-41FF-9A75-B242562CEBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24539204-930F-41FF-9A75-B242562CEBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24539204-930F-41FF-9A75-B242562CEBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24539204-930F-41FF-9A75-B242562CEBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D22BF96-632E-4567-9D59-7917D58CB7E1} = {859E6B4F-ED6E-4AF8-8881-9081D90B063E}
+		{24539204-930F-41FF-9A75-B242562CEBBC} = {5CCC3C9F-67F9-44F4-9A86-4D5E67B1A53C}
+	EndGlobalSection
+EndGlobal

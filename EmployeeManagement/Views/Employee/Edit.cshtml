@@ -1,0 +1,23 @@
+@model EmployeeModel
+
+@{
+    ViewData["Title"] = "Modification de l'employé";
+}
+
+<div class="row">
+    <form asp-action="Edit">
+        <div class="col-4">
+            <label for="name" class="form-label">Nom</label>
+            <input id="name" class="form-control" type="text" placeholder="Renseignez le nom" asp-for="Name" value="@Model.Name"/>
+        </div>
+        <div class="col-4">
+            <label for="position" class="form-label">Poste</label>
+            <input id="position" class="form-control" type="text" placeholder="Renseignez le poste" asp-for="Position" value="@Model.Position"/>
+        </div>
+        <div class="col-4">
+            <label for="salary" class="form-label">Salaire</label>
+            <input id="salary" class="form-control" type="text" placeholder="Renseignez le salaire" asp-for="Salary" value="@Model.Salary"/>
+        </div>
+        <button class="btn btn-primary mt-3" type="submit">Modifer</button>
+    </form>
+</div>

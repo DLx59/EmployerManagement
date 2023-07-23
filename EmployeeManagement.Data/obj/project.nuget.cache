@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "3JPsOviFAhiaGCEO1N6ChHuA4pA32Bt4Eix5/vdsk7dhLmWnuGg7O3WjDMrh+pgxNLBiOleOxdCk8ghKfq6obg==",
+  "success": true,
+  "projectFilePath": "C:\\DEV\\Workspace\\Exercices\\C#\\EmployeeManagement\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0-preview.6.23329.4\\microsoft.data.sqlite.core.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.relational.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.sqlite.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.sqlite.core.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.caching.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.6.23329.7\\microsoft.extensions.caching.memory.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.configuration.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencymodel.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.6.23329.7\\microsoft.extensions.options.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.6.23329.7\\microsoft.extensions.primitives.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.5\\sqlitepclraw.bundle_e_sqlite3.2.1.5.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\sqlitepclraw.core\\2.1.5\\sqlitepclraw.core.2.1.5.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.5\\sqlitepclraw.lib.e_sqlite3.2.1.5.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.5\\sqlitepclraw.provider.e_sqlite3.2.1.5.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.6.23329.7\\system.text.encodings.web.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\DLx\\.nuget\\packages\\system.text.json\\8.0.0-preview.6.23329.7\\system.text.json.8.0.0-preview.6.23329.7.nupkg.sha512"
+  ],
+  "logs": []
+}

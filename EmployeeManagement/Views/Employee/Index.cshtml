@@ -1,0 +1,45 @@
+@model EmployeeModel
+
+@{
+    ViewData["Title"] = "Gestion des employées";
+}
+
+
+<form asp-action="Create">
+    <div class="row">
+        <h2>Ajout d'un employé</h2>
+        <div class="col-md-4">
+            <label for="name" class="form-label">Nom</label>
+            <input id="name" class="form-control" type="text" placeholder="Renseignez le nom" asp-for="Name"/>
+        </div>
+        <div class="col-md-4">
+            <label for="position" class="form-label">Poste</label>
+            <input id="position" class="form-control" type="text" placeholder="Renseignez le poste" asp-for="Position"/>
+        </div>
+        <div class="col-md-4">
+            <label for="salary" class="form-label">Salaire</label>
+            <input id="salary" class="form-control" type="number" placeholder="Renseignez le salaire" asp-for="Salary"/>
+        </div>
+        <div class="d-flex">
+            <button class="btn btn-primary mt-3 ms-auto" type="submit">Ajouter</button>
+        </div>
+    </div>
+</form>
+
+<form asp-action="SearchByName">
+    <div class="row mt-5">
+        <h2>Apperçu des employés</h2>
+        <div class="col-md-4 mt-y">
+            <label class="form-label" for="search">Recherche un employé</label>
+            <div class="input-group">
+                <input class="form-control" id="search" name="searchText"/>
+                <button class="btn btn-primary float-end" type="submit">Rechercher</button>
+                <button class="btn btn-primary float-end" type="submit" asp-action="ResetOverview">Reset</button>
+            </div>
+        </div>
+        <div class="offset-md-4 col-md-4">
+            <span>Nombre total d'employé : <strong>@ViewBag.TotalEmployee</strong></span>
+        </div>
+    </div>
+    <partial name="_EmployeeTablePartial" model="@ViewBag.Employees"/>
+</form>
